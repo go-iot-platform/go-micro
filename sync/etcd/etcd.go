@@ -11,7 +11,7 @@ import (
 
 	client "github.com/coreos/etcd/clientv3"
 	cc "github.com/coreos/etcd/clientv3/concurrency"
-	"github.com/panovateam/go-micro/sync"
+	"github.com/go-iot-platform/go-micro/sync"
 )
 
 type etcdSync struct {

@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 var (

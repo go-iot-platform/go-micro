@@ -2,7 +2,7 @@
 package http
 
 import (
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // NewTransport returns a new http transport using net/http and supporting http2

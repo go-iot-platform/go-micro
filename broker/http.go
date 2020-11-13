@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/codec/json"
-	merr "github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/cache"
-	maddr "github.com/panovateam/go-micro/util/addr"
-	mnet "github.com/panovateam/go-micro/util/net"
-	mls "github.com/panovateam/go-micro/util/tls"
+	"github.com/go-iot-platform/go-micro/codec/json"
+	merr "github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/cache"
+	maddr "github.com/go-iot-platform/go-micro/util/addr"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
 	"golang.org/x/net/http2"
 )
 

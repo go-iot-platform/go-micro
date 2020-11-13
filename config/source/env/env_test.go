@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 func TestEnv_Read(t *testing.T) {

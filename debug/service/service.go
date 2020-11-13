@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/debug"
-	"github.com/panovateam/go-micro/debug/log"
+	"github.com/go-iot-platform/go-micro/debug"
+	"github.com/go-iot-platform/go-micro/debug/log"
 )
 
 type serviceLog struct {

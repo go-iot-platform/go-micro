@@ -32,7 +32,7 @@ function check_dir {
 }
 failed_arr=()
 failed=0
-go mod edit -replace github.com/panovateam/go-micro=github.com/panovateam/go-micro@$1 
+go mod edit -replace github.com/go-iot-platform/go-micro=github.com/go-iot-platform/go-micro@$1 
 check_dir . $1
 if [ $failed -gt 0 ]; then
     echo Some builds failed

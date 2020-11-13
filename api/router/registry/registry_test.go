@@ -3,7 +3,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 	"github.com/stretchr/testify/assert"
 )
 

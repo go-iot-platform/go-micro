@@ -4,9 +4,9 @@ package broker
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/tunnel"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/tunnel"
 )
 
 type tunBroker struct {

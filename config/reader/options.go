@@ -1,12 +1,12 @@
 package reader
 
 import (
-	"github.com/panovateam/go-micro/config/encoder"
-	"github.com/panovateam/go-micro/config/encoder/hcl"
-	"github.com/panovateam/go-micro/config/encoder/json"
-	"github.com/panovateam/go-micro/config/encoder/toml"
-	"github.com/panovateam/go-micro/config/encoder/xml"
-	"github.com/panovateam/go-micro/config/encoder/yaml"
+	"github.com/go-iot-platform/go-micro/config/encoder"
+	"github.com/go-iot-platform/go-micro/config/encoder/hcl"
+	"github.com/go-iot-platform/go-micro/config/encoder/json"
+	"github.com/go-iot-platform/go-micro/config/encoder/toml"
+	"github.com/go-iot-platform/go-micro/config/encoder/xml"
+	"github.com/go-iot-platform/go-micro/config/encoder/yaml"
 )
 
 type Options struct {

@@ -1,5 +1,5 @@
 // Package log is a global internal logger
-// DEPRECATED: this is frozen package, use github.com/panovateam/go-micro/logger
+// DEPRECATED: this is frozen package, use github.com/go-iot-platform/go-micro/logger
 package log
 
 import (
@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync/atomic"
 
-	dlog "github.com/panovateam/go-micro/debug/log"
-	nlog "github.com/panovateam/go-micro/logger"
+	dlog "github.com/go-iot-platform/go-micro/debug/log"
+	nlog "github.com/go-iot-platform/go-micro/logger"
 )
 
 // level is a log level

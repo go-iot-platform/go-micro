@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/panovateam/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 type rpcResponse struct {

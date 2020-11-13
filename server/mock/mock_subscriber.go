@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 type MockSubscriber struct {

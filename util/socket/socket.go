@@ -4,7 +4,7 @@ package socket
 import (
 	"io"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // Socket is our pseudo socket for transport.Socket

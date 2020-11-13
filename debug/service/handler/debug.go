@@ -5,12 +5,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/debug/log"
-	proto "github.com/panovateam/go-micro/debug/service/proto"
-	"github.com/panovateam/go-micro/debug/stats"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/debug/log"
+	proto "github.com/go-iot-platform/go-micro/debug/service/proto"
+	"github.com/go-iot-platform/go-micro/debug/stats"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // NewHandler returns an instance of the Debug Handler

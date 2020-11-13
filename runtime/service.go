@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/runtime/local/build"
-	"github.com/panovateam/go-micro/runtime/local/process"
-	proc "github.com/panovateam/go-micro/runtime/local/process/os"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/runtime/local/build"
+	"github.com/go-iot-platform/go-micro/runtime/local/process"
+	proc "github.com/go-iot-platform/go-micro/runtime/local/process/os"
 )
 
 type service struct {

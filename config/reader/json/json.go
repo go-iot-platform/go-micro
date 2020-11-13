@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"github.com/panovateam/go-micro/config/encoder"
-	"github.com/panovateam/go-micro/config/encoder/json"
-	"github.com/panovateam/go-micro/config/reader"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/encoder"
+	"github.com/go-iot-platform/go-micro/config/encoder/json"
+	"github.com/go-iot-platform/go-micro/config/reader"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type jsonReader struct {

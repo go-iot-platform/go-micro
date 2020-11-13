@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type file struct {

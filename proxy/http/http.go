@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/proxy"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/proxy"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // Proxy will proxy rpc requests as http POST requests. It is a server.Proxy

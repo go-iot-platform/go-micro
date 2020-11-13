@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/registry/memory"
 )
 
 func TestRegistrySelector(t *testing.T) {

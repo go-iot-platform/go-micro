@@ -3,9 +3,9 @@ package grpc
 import (
 	"crypto/tls"
 
-	gc "github.com/panovateam/go-micro/client/grpc"
-	gs "github.com/panovateam/go-micro/server/grpc"
-	"github.com/panovateam/go-micro/service"
+	gc "github.com/go-iot-platform/go-micro/client/grpc"
+	gs "github.com/go-iot-platform/go-micro/server/grpc"
+	"github.com/go-iot-platform/go-micro/service"
 )
 
 // WithTLS sets the TLS config for the service

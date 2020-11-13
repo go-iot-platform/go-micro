@@ -3,9 +3,9 @@ package basic
 import (
 	"testing"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/auth/token"
-	"github.com/panovateam/go-micro/store/memory"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth/token"
+	"github.com/go-iot-platform/go-micro/store/memory"
 )
 
 func TestGenerate(t *testing.T) {

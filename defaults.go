@@ -1,16 +1,16 @@
 package micro
 
 import (
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/server"
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/store"
 
 	// set defaults
-	gcli "github.com/panovateam/go-micro/client/grpc"
-	memTrace "github.com/panovateam/go-micro/debug/trace/memory"
-	gsrv "github.com/panovateam/go-micro/server/grpc"
-	memoryStore "github.com/panovateam/go-micro/store/memory"
+	gcli "github.com/go-iot-platform/go-micro/client/grpc"
+	memTrace "github.com/go-iot-platform/go-micro/debug/trace/memory"
+	gsrv "github.com/go-iot-platform/go-micro/server/grpc"
+	memoryStore "github.com/go-iot-platform/go-micro/store/memory"
 )
 
 func init() {

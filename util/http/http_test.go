@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/memory"
 )
 
 func TestRoundTripper(t *testing.T) {

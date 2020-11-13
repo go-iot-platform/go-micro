@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 type tunListener struct {

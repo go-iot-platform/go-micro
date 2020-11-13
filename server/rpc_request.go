@@ -3,9 +3,9 @@ package server
 import (
 	"bytes"
 
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/util/buf"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/util/buf"
 )
 
 type rpcRequest struct {

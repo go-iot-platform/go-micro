@@ -2,12 +2,12 @@ package network
 
 import (
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/network/resolver"
-	"github.com/panovateam/go-micro/network/resolver/registry"
-	"github.com/panovateam/go-micro/proxy"
-	"github.com/panovateam/go-micro/proxy/mucp"
-	"github.com/panovateam/go-micro/router"
-	"github.com/panovateam/go-micro/tunnel"
+	"github.com/go-iot-platform/go-micro/network/resolver"
+	"github.com/go-iot-platform/go-micro/network/resolver/registry"
+	"github.com/go-iot-platform/go-micro/proxy"
+	"github.com/go-iot-platform/go-micro/proxy/mucp"
+	"github.com/go-iot-platform/go-micro/router"
+	"github.com/go-iot-platform/go-micro/tunnel"
 )
 
 type Option func(*Options)

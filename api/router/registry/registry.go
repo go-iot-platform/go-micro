@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/api"
-	"github.com/panovateam/go-micro/api/router"
-	"github.com/panovateam/go-micro/api/router/util"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/cache"
+	"github.com/go-iot-platform/go-micro/api"
+	"github.com/go-iot-platform/go-micro/api/router"
+	"github.com/go-iot-platform/go-micro/api/router/util"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/cache"
 )
 
 // endpoint struct, that holds compiled pcre

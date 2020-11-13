@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	maddr "github.com/panovateam/go-micro/util/addr"
-	"github.com/panovateam/go-micro/util/buf"
-	mnet "github.com/panovateam/go-micro/util/net"
-	mls "github.com/panovateam/go-micro/util/tls"
+	maddr "github.com/go-iot-platform/go-micro/util/addr"
+	"github.com/go-iot-platform/go-micro/util/buf"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )

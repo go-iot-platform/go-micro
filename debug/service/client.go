@@ -5,9 +5,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/debug/log"
-	pb "github.com/panovateam/go-micro/debug/service/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/debug/log"
+	pb "github.com/go-iot-platform/go-micro/debug/service/proto"
 )
 
 // Debug provides debug service client

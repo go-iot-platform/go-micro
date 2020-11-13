@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 // Write sets the status and body on a http ResponseWriter

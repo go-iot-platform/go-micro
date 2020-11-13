@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/panovateam/go-micro"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/registry/memory"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 type testHandler struct{}

@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/panovateam/go-micro/store"
-	"github.com/panovateam/go-micro/store/memory"
+	"github.com/go-iot-platform/go-micro/store"
+	"github.com/go-iot-platform/go-micro/store/memory"
 	"github.com/stretchr/testify/assert"
 )
 

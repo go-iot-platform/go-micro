@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 func TestWrapper(t *testing.T) {

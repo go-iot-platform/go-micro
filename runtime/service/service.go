@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/runtime"
-	pb "github.com/panovateam/go-micro/runtime/service/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/runtime"
+	pb "github.com/go-iot-platform/go-micro/runtime/service/proto"
 )
 
 type svc struct {

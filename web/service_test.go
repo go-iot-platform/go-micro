@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/memory"
 )
 
 func TestService(t *testing.T) {

@@ -3,7 +3,7 @@ package memory
 import (
 	"errors"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type memoryWatcher struct {

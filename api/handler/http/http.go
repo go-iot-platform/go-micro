@@ -8,9 +8,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/panovateam/go-micro/api"
-	"github.com/panovateam/go-micro/api/handler"
-	"github.com/panovateam/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/api"
+	"github.com/go-iot-platform/go-micro/api/handler"
+	"github.com/go-iot-platform/go-micro/client/selector"
 )
 
 const (

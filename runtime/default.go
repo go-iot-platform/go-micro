@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/hpcloud/tail"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/runtime/local/git"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/runtime/local/git"
 )
 
 // defaultNamespace to use if not provided as an option

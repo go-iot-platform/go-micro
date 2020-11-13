@@ -6,11 +6,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/grpc"
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/proxy"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/grpc"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/proxy"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // Proxy will transparently proxy requests to the backend.

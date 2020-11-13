@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/panovateam/go-micro/config/source"
-	proto "github.com/panovateam/go-micro/config/source/service/proto"
+	"github.com/go-iot-platform/go-micro/config/source"
+	proto "github.com/go-iot-platform/go-micro/config/source/service/proto"
 )
 
 type watcher struct {

@@ -4,16 +4,16 @@ import (
 	"bytes"
 	errs "errors"
 
-	"github.com/panovateam/go-micro/codec"
-	raw "github.com/panovateam/go-micro/codec/bytes"
-	"github.com/panovateam/go-micro/codec/grpc"
-	"github.com/panovateam/go-micro/codec/json"
-	"github.com/panovateam/go-micro/codec/jsonrpc"
-	"github.com/panovateam/go-micro/codec/proto"
-	"github.com/panovateam/go-micro/codec/protorpc"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/codec"
+	raw "github.com/go-iot-platform/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/codec/grpc"
+	"github.com/go-iot-platform/go-micro/codec/json"
+	"github.com/go-iot-platform/go-micro/codec/jsonrpc"
+	"github.com/go-iot-platform/go-micro/codec/proto"
+	"github.com/go-iot-platform/go-micro/codec/protorpc"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 const (

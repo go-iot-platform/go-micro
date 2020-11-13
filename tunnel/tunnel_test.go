@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 func testBrokenTunAccept(t *testing.T, tun Tunnel, wait chan bool, wg *sync.WaitGroup) {

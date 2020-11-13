@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 // Options are router options

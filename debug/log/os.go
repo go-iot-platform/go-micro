@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/util/ring"
+	"github.com/go-iot-platform/go-micro/util/ring"
 )
 
 // Should stream from OS

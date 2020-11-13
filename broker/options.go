@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type Options struct {

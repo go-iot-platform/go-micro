@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/ef-ds/deque"
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/store"
 	"github.com/pkg/errors"
 )
 

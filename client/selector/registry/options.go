@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/client/selector"
 )
 
 // Set the registry cache ttl

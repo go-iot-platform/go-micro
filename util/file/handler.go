@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/server"
-	proto "github.com/panovateam/go-micro/util/file/proto"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/server"
+	proto "github.com/go-iot-platform/go-micro/util/file/proto"
 	"golang.org/x/net/context"
 )
 

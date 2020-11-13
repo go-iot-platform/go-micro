@@ -1,9 +1,9 @@
 package memory
 
 import (
-	"github.com/panovateam/go-micro/config/loader"
-	"github.com/panovateam/go-micro/config/reader"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/loader"
+	"github.com/go-iot-platform/go-micro/config/reader"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 // WithSource appends a source to list of sources

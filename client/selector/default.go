@@ -3,8 +3,8 @@ package selector
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/cache"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/cache"
 )
 
 type registrySelector struct {

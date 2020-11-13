@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/panovateam/go-micro/runtime/local/build"
+	"github.com/go-iot-platform/go-micro/runtime/local/build"
 )
 
 type Builder struct {

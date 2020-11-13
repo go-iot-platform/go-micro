@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"github.com/panovateam/go-micro/runtime/local/build"
+	"github.com/go-iot-platform/go-micro/runtime/local/build"
 )
 
 // Process manages a running process

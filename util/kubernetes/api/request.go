@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 // Request is used to construct a http request for the k8s API.

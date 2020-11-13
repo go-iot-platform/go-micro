@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/auth/provider"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/auth/provider"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 func NewOptions(opts ...Option) Options {

@@ -4,13 +4,13 @@ package api
 import (
 	"net/http"
 
-	goapi "github.com/panovateam/go-micro/api"
-	"github.com/panovateam/go-micro/api/handler"
-	api "github.com/panovateam/go-micro/api/proto"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/util/ctx"
+	goapi "github.com/go-iot-platform/go-micro/api"
+	"github.com/go-iot-platform/go-micro/api/handler"
+	api "github.com/go-iot-platform/go-micro/api/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/util/ctx"
 )
 
 type apiHandler struct {

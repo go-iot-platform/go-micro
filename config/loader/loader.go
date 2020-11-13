@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/config/reader"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/reader"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 // Loader manages loading sources

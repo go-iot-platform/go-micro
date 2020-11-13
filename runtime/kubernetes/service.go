@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/runtime"
-	"github.com/panovateam/go-micro/util/kubernetes/api"
-	"github.com/panovateam/go-micro/util/kubernetes/client"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/runtime"
+	"github.com/go-iot-platform/go-micro/util/kubernetes/api"
+	"github.com/go-iot-platform/go-micro/util/kubernetes/client"
 )
 
 type service struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/panovateam/go-micro/auth/provider"
+	"github.com/go-iot-platform/go-micro/auth/provider"
 )
 
 // NewProvider returns an initialised oauth provider

@@ -3,7 +3,7 @@ package sync
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 // Options represents Sync options

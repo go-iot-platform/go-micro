@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	proto "github.com/panovateam/go-micro/debug/service/proto"
-	"github.com/panovateam/go-micro/registry/memory"
-	"github.com/panovateam/go-micro/util/test"
+	proto "github.com/go-iot-platform/go-micro/debug/service/proto"
+	"github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/util/test"
 )
 
 func TestFunction(t *testing.T) {

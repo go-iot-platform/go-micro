@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/panovateam/go-micro/network/service/proto"
+	pb "github.com/go-iot-platform/go-micro/network/service/proto"
 )
 
 var (

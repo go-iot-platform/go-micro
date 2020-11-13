@@ -2,7 +2,7 @@
 package local
 
 import (
-	"github.com/panovateam/go-micro/runtime"
+	"github.com/go-iot-platform/go-micro/runtime"
 )
 
 // NewRuntime returns a new local runtime

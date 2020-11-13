@@ -3,8 +3,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 type rpcResponse struct {

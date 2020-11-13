@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/transport/quic"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport/quic"
 )
 
 var (

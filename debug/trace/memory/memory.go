@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/util/ring"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/util/ring"
 )
 
 type Tracer struct {

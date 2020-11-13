@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 func TestTokenize(t *testing.T) {

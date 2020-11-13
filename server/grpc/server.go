@@ -14,8 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 var (

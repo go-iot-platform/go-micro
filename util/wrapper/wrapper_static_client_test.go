@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/panovateam/go-micro/broker"
-	bmemory "github.com/panovateam/go-micro/broker/memory"
-	"github.com/panovateam/go-micro/client"
-	rmemory "github.com/panovateam/go-micro/registry/memory"
-	"github.com/panovateam/go-micro/server"
-	tmemory "github.com/panovateam/go-micro/transport/memory"
-	wrapper "github.com/panovateam/go-micro/util/wrapper"
+	"github.com/go-iot-platform/go-micro/broker"
+	bmemory "github.com/go-iot-platform/go-micro/broker/memory"
+	"github.com/go-iot-platform/go-micro/client"
+	rmemory "github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/server"
+	tmemory "github.com/go-iot-platform/go-micro/transport/memory"
+	wrapper "github.com/go-iot-platform/go-micro/util/wrapper"
 )
 
 type TestFoo struct {

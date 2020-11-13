@@ -3,18 +3,18 @@ package cmd
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/config"
-	"github.com/panovateam/go-micro/debug/profile"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/runtime"
-	"github.com/panovateam/go-micro/server"
-	"github.com/panovateam/go-micro/store"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/config"
+	"github.com/go-iot-platform/go-micro/debug/profile"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/runtime"
+	"github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/store"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 type Options struct {

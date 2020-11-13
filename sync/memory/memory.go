@@ -5,7 +5,7 @@ import (
 	gosync "sync"
 	"time"
 
-	"github.com/panovateam/go-micro/sync"
+	"github.com/go-iot-platform/go-micro/sync"
 )
 
 type memorySync struct {

@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/panovateam/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/errors"
 	"google.golang.org/grpc/status"
 )
 

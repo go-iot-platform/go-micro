@@ -4,11 +4,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/config/source"
-	proto "github.com/panovateam/go-micro/config/source/service/proto"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/config/source"
+	proto "github.com/go-iot-platform/go-micro/config/source/service/proto"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 var (

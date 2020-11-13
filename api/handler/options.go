@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"github.com/panovateam/go-micro/api/router"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/grpc"
+	"github.com/go-iot-platform/go-micro/api/router"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/grpc"
 )
 
 var (

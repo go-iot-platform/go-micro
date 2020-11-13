@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 // Generate generates a service account for and continually

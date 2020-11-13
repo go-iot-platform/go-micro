@@ -6,15 +6,15 @@ package go_micro_network
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	_ "github.com/panovateam/go-micro/router/service/proto"
+	_ "github.com/go-iot-platform/go-micro/router/service/proto"
 	math "math"
 )
 
 import (
 	context "context"
-	api "github.com/panovateam/go-micro/api"
-	client "github.com/panovateam/go-micro/client"
-	server "github.com/panovateam/go-micro/server"
+	api "github.com/go-iot-platform/go-micro/api"
+	client "github.com/go-iot-platform/go-micro/client"
+	server "github.com/go-iot-platform/go-micro/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

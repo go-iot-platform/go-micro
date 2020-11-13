@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 func extractValue(v reflect.Type, d int) *registry.Value {

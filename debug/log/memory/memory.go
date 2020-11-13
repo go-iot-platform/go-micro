@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"github.com/panovateam/go-micro/debug/log"
-	"github.com/panovateam/go-micro/util/ring"
+	"github.com/go-iot-platform/go-micro/debug/log"
+	"github.com/go-iot-platform/go-micro/util/ring"
 )
 
 var (

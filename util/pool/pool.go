@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // Pool is an interface for connection pooling

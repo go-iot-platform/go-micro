@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/panovateam/go-micro/api/resolver"
-	"github.com/panovateam/go-micro/api/resolver/vpath"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/api/resolver"
+	"github.com/go-iot-platform/go-micro/api/resolver/vpath"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type Options struct {

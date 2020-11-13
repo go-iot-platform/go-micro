@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 // InvalidTemplateError indicates that the path template is not valid.

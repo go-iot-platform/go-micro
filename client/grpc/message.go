@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/panovateam/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client"
 )
 
 type grpcEvent struct {

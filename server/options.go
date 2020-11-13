@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 type Options struct {

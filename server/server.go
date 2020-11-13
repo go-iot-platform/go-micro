@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
-	signalutil "github.com/panovateam/go-micro/util/signal"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
+	signalutil "github.com/go-iot-platform/go-micro/util/signal"
 )
 
 // Server is a simple micro server abstraction

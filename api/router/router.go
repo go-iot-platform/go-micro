@@ -4,7 +4,7 @@ package router
 import (
 	"net/http"
 
-	"github.com/panovateam/go-micro/api"
+	"github.com/go-iot-platform/go-micro/api"
 )
 
 // Router is used to determine an endpoint for a request

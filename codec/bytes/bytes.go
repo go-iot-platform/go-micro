@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/panovateam/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 type Codec struct {

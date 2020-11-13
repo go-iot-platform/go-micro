@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"github.com/panovateam/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/client/selector"
 )
 
 // NewSelector returns a new registry selector

@@ -4,7 +4,7 @@ package host
 import (
 	"net/http"
 
-	"github.com/panovateam/go-micro/api/resolver"
+	"github.com/go-iot-platform/go-micro/api/resolver"
 )
 
 type Resolver struct {

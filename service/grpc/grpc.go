@@ -1,11 +1,11 @@
 package grpc
 
 import (
-	"github.com/panovateam/go-micro/client"
-	gclient "github.com/panovateam/go-micro/client/grpc"
-	"github.com/panovateam/go-micro/server"
-	gserver "github.com/panovateam/go-micro/server/grpc"
-	"github.com/panovateam/go-micro/service"
+	"github.com/go-iot-platform/go-micro/client"
+	gclient "github.com/go-iot-platform/go-micro/client/grpc"
+	"github.com/go-iot-platform/go-micro/server"
+	gserver "github.com/go-iot-platform/go-micro/server/grpc"
+	"github.com/go-iot-platform/go-micro/service"
 )
 
 type grpcService struct {

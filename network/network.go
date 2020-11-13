@@ -4,8 +4,8 @@ package network
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 var (

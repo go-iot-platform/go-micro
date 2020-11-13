@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/auth/token"
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth/token"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 // Basic implementation of token provider, backed by the store

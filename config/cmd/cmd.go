@@ -7,80 +7,80 @@ import (
 	"strings"
 	"time"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/auth/provider"
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/grpc"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/config"
-	configSrc "github.com/panovateam/go-micro/config/source"
-	configSrv "github.com/panovateam/go-micro/config/source/service"
-	"github.com/panovateam/go-micro/debug/profile"
-	"github.com/panovateam/go-micro/debug/profile/http"
-	"github.com/panovateam/go-micro/debug/profile/pprof"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
-	registrySrv "github.com/panovateam/go-micro/registry/service"
-	"github.com/panovateam/go-micro/runtime"
-	"github.com/panovateam/go-micro/server"
-	"github.com/panovateam/go-micro/store"
-	"github.com/panovateam/go-micro/transport"
-	authutil "github.com/panovateam/go-micro/util/auth"
-	"github.com/panovateam/go-micro/util/wrapper"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth/provider"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/grpc"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/config"
+	configSrc "github.com/go-iot-platform/go-micro/config/source"
+	configSrv "github.com/go-iot-platform/go-micro/config/source/service"
+	"github.com/go-iot-platform/go-micro/debug/profile"
+	"github.com/go-iot-platform/go-micro/debug/profile/http"
+	"github.com/go-iot-platform/go-micro/debug/profile/pprof"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
+	registrySrv "github.com/go-iot-platform/go-micro/registry/service"
+	"github.com/go-iot-platform/go-micro/runtime"
+	"github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/store"
+	"github.com/go-iot-platform/go-micro/transport"
+	authutil "github.com/go-iot-platform/go-micro/util/auth"
+	"github.com/go-iot-platform/go-micro/util/wrapper"
 
 	// clients
-	cgrpc "github.com/panovateam/go-micro/client/grpc"
-	cmucp "github.com/panovateam/go-micro/client/mucp"
+	cgrpc "github.com/go-iot-platform/go-micro/client/grpc"
+	cmucp "github.com/go-iot-platform/go-micro/client/mucp"
 
 	// servers
 	"github.com/micro/cli/v2"
 
-	sgrpc "github.com/panovateam/go-micro/server/grpc"
-	smucp "github.com/panovateam/go-micro/server/mucp"
+	sgrpc "github.com/go-iot-platform/go-micro/server/grpc"
+	smucp "github.com/go-iot-platform/go-micro/server/mucp"
 
 	// brokers
-	brokerHttp "github.com/panovateam/go-micro/broker/http"
-	"github.com/panovateam/go-micro/broker/memory"
-	"github.com/panovateam/go-micro/broker/nats"
-	brokerSrv "github.com/panovateam/go-micro/broker/service"
+	brokerHttp "github.com/go-iot-platform/go-micro/broker/http"
+	"github.com/go-iot-platform/go-micro/broker/memory"
+	"github.com/go-iot-platform/go-micro/broker/nats"
+	brokerSrv "github.com/go-iot-platform/go-micro/broker/service"
 
 	// registries
-	"github.com/panovateam/go-micro/registry/etcd"
-	"github.com/panovateam/go-micro/registry/mdns"
-	rmem "github.com/panovateam/go-micro/registry/memory"
-	regSrv "github.com/panovateam/go-micro/registry/service"
+	"github.com/go-iot-platform/go-micro/registry/etcd"
+	"github.com/go-iot-platform/go-micro/registry/mdns"
+	rmem "github.com/go-iot-platform/go-micro/registry/memory"
+	regSrv "github.com/go-iot-platform/go-micro/registry/service"
 
 	// runtimes
-	kRuntime "github.com/panovateam/go-micro/runtime/kubernetes"
-	lRuntime "github.com/panovateam/go-micro/runtime/local"
-	srvRuntime "github.com/panovateam/go-micro/runtime/service"
+	kRuntime "github.com/go-iot-platform/go-micro/runtime/kubernetes"
+	lRuntime "github.com/go-iot-platform/go-micro/runtime/local"
+	srvRuntime "github.com/go-iot-platform/go-micro/runtime/service"
 
 	// selectors
-	"github.com/panovateam/go-micro/client/selector/dns"
-	"github.com/panovateam/go-micro/client/selector/router"
-	"github.com/panovateam/go-micro/client/selector/static"
+	"github.com/go-iot-platform/go-micro/client/selector/dns"
+	"github.com/go-iot-platform/go-micro/client/selector/router"
+	"github.com/go-iot-platform/go-micro/client/selector/static"
 
 	// transports
-	thttp "github.com/panovateam/go-micro/transport/http"
-	tmem "github.com/panovateam/go-micro/transport/memory"
+	thttp "github.com/go-iot-platform/go-micro/transport/http"
+	tmem "github.com/go-iot-platform/go-micro/transport/memory"
 
 	// stores
-	memStore "github.com/panovateam/go-micro/store/memory"
-	svcStore "github.com/panovateam/go-micro/store/service"
+	memStore "github.com/go-iot-platform/go-micro/store/memory"
+	svcStore "github.com/go-iot-platform/go-micro/store/service"
 
 	// tracers
-	// jTracer "github.com/panovateam/go-micro/debug/trace/jaeger"
-	memTracer "github.com/panovateam/go-micro/debug/trace/memory"
+	// jTracer "github.com/go-iot-platform/go-micro/debug/trace/jaeger"
+	memTracer "github.com/go-iot-platform/go-micro/debug/trace/memory"
 
 	// auth
-	jwtAuth "github.com/panovateam/go-micro/auth/jwt"
-	svcAuth "github.com/panovateam/go-micro/auth/service"
+	jwtAuth "github.com/go-iot-platform/go-micro/auth/jwt"
+	svcAuth "github.com/go-iot-platform/go-micro/auth/service"
 
 	// auth providers
-	"github.com/panovateam/go-micro/auth/provider/basic"
-	"github.com/panovateam/go-micro/auth/provider/oauth"
+	"github.com/go-iot-platform/go-micro/auth/provider/basic"
+	"github.com/go-iot-platform/go-micro/auth/provider/oauth"
 )
 
 type Cmd interface {

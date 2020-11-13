@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/panovateam/go-micro/codec"
-	merrors "github.com/panovateam/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/codec"
+	merrors "github.com/go-iot-platform/go-micro/errors"
 )
 
 var (

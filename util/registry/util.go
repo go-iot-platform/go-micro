@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 func addNodes(old, neu []*registry.Node) []*registry.Node {

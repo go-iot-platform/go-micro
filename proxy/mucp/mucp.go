@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/codec/bytes"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/proxy"
-	"github.com/panovateam/go-micro/router"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/proxy"
+	"github.com/go-iot-platform/go-micro/router"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // Proxy will transparently proxy requests to an endpoint.

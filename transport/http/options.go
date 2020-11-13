@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // Handle registers the handler for the given pattern.

@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec/bytes"
 )
 
 type rpcRequest struct {

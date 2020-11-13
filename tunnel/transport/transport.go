@@ -4,8 +4,8 @@ package transport
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/tunnel"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/tunnel"
 )
 
 type tunTransport struct {

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
-	util "github.com/panovateam/go-micro/util/registry"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
+	util "github.com/go-iot-platform/go-micro/util/registry"
 )
 
 // Cache is the registry cache interface

@@ -11,13 +11,13 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/config/cmd"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/server"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/config/cmd"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 type plugin struct{}

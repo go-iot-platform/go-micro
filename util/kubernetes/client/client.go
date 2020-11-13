@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/util/kubernetes/api"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/util/kubernetes/api"
 )
 
 var (

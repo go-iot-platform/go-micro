@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/panovateam/go-micro/client"
-	proto "github.com/panovateam/go-micro/util/file/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	proto "github.com/go-iot-platform/go-micro/util/file/proto"
 )
 
 // Client is the client interface to access files

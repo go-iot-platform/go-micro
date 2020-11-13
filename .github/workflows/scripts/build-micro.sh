@@ -2,7 +2,7 @@
 # set -x
 
 failed=0
-go mod edit -replace github.com/panovateam/go-micro=github.com/panovateam/go-micro@$1 
+go mod edit -replace github.com/go-iot-platform/go-micro=github.com/go-iot-platform/go-micro@$1 
 # basic test, build the binary
 go build
 failed=$?

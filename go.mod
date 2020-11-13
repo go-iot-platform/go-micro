@@ -1,4 +1,4 @@
-module github.com/panovateam/go-micro
+module github.com/go-iot-platform/go-micro
 
 go 1.13
 

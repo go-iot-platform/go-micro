@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/micro/cli/v2"
-	"github.com/panovateam/go-micro"
-	"github.com/panovateam/go-micro/config"
-	"github.com/panovateam/go-micro/config/cmd"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro"
+	"github.com/go-iot-platform/go-micro/config"
+	"github.com/go-iot-platform/go-micro/config/cmd"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 func TestCliSourceDefault(t *testing.T) {

@@ -2,7 +2,7 @@
 package mucp
 
 import (
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // NewServer returns a micro server interface

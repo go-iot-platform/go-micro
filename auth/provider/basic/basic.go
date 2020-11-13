@@ -1,7 +1,7 @@
 package basic
 
 import (
-	"github.com/panovateam/go-micro/auth/provider"
+	"github.com/go-iot-platform/go-micro/auth/provider"
 )
 
 // NewProvider returns an initialised basic provider

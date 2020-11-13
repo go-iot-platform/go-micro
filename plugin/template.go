@@ -5,7 +5,7 @@ var (
 package main
 
 import (
-	"github.com/panovateam/go-micro/plugin"
+	"github.com/go-iot-platform/go-micro/plugin"
 
 	"{{.Path}}"
 )

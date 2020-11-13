@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/debug/stats"
-	"github.com/panovateam/go-micro/debug/trace"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/debug/stats"
+	"github.com/go-iot-platform/go-micro/debug/trace"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 type fromServiceWrapper struct {

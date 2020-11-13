@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/config/source"
-	"github.com/panovateam/go-micro/config/source/env"
-	"github.com/panovateam/go-micro/config/source/file"
-	"github.com/panovateam/go-micro/config/source/memory"
+	"github.com/go-iot-platform/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source/env"
+	"github.com/go-iot-platform/go-micro/config/source/file"
+	"github.com/go-iot-platform/go-micro/config/source/memory"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

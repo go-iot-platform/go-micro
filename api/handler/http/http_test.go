@@ -6,13 +6,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/panovateam/go-micro/api/handler"
-	"github.com/panovateam/go-micro/api/resolver"
-	"github.com/panovateam/go-micro/api/resolver/vpath"
-	"github.com/panovateam/go-micro/api/router"
-	regRouter "github.com/panovateam/go-micro/api/router/registry"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/api/handler"
+	"github.com/go-iot-platform/go-micro/api/resolver"
+	"github.com/go-iot-platform/go-micro/api/resolver/vpath"
+	"github.com/go-iot-platform/go-micro/api/router"
+	regRouter "github.com/go-iot-platform/go-micro/api/router/registry"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/memory"
 )
 
 func testHttp(t *testing.T, path, service, ns string) {

@@ -3,9 +3,9 @@ package source
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/config/encoder"
-	"github.com/panovateam/go-micro/config/encoder/json"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/config/encoder"
+	"github.com/go-iot-platform/go-micro/config/encoder/json"
 )
 
 type Options struct {

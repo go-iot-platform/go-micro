@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // session is our pseudo session for transport.Socket

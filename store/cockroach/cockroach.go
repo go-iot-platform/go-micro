@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/store"
 	"github.com/pkg/errors"
 )
 

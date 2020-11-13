@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/panovateam/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth"
 )
 
 // Verify an account has access to a resource using the rules provided. If the account does not have

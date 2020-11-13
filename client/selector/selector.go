@@ -4,7 +4,7 @@ package selector
 import (
 	"errors"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 // Selector builds on the registry as a mechanism to pick nodes

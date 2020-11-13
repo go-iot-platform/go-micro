@@ -3,7 +3,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type rpcHandler struct {

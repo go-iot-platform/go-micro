@@ -5,10 +5,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/broker"
-	pb "github.com/panovateam/go-micro/broker/service/proto"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/broker"
+	pb "github.com/go-iot-platform/go-micro/broker/service/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 type serviceBroker struct {

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/codec/json"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/codec/json"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
 	nats "github.com/nats-io/nats.go"
 )
 

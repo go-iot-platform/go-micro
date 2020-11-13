@@ -3,7 +3,7 @@ package micro
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client"
 )
 
 type event struct {

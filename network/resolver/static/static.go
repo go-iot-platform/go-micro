@@ -2,7 +2,7 @@
 package registry
 
 import (
-	"github.com/panovateam/go-micro/network/resolver"
+	"github.com/go-iot-platform/go-micro/network/resolver"
 )
 
 // Resolver returns a static list of nodes. In the event the node list

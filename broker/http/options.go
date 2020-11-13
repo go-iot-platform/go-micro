@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/panovateam/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/broker"
 )
 
 // Handle registers the handler for the given pattern.

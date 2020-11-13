@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/codec"
 )
 
 // Client is the interface used to make requests to services.

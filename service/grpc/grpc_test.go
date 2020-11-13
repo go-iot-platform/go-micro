@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/registry/memory"
-	"github.com/panovateam/go-micro/service"
-	hello "github.com/panovateam/go-micro/service/grpc/proto"
-	mls "github.com/panovateam/go-micro/util/tls"
+	"github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/service"
+	hello "github.com/go-iot-platform/go-micro/service/grpc/proto"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
 )
 
 type testHandler struct{}

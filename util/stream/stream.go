@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 type Stream interface {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/server"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/server"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 type Options struct {

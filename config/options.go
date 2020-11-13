@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/panovateam/go-micro/config/loader"
-	"github.com/panovateam/go-micro/config/reader"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/loader"
+	"github.com/go-iot-platform/go-micro/config/reader"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 // WithLoader sets the loader for manager config

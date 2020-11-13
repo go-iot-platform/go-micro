@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // event is a broker event we handle on the server transport

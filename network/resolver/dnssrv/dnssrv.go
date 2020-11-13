@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/panovateam/go-micro/network/resolver"
+	"github.com/go-iot-platform/go-micro/network/resolver"
 )
 
 // Resolver is a DNS network resolve

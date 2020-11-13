@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry/memory"
 )
 
 func newTestRegistry() registry.Registry {

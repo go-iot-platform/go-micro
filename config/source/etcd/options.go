@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type addressKey struct{}

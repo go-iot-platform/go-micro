@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/codec"
-	raw "github.com/panovateam/go-micro/codec/bytes"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/util/addr"
-	"github.com/panovateam/go-micro/util/backoff"
-	mnet "github.com/panovateam/go-micro/util/net"
-	"github.com/panovateam/go-micro/util/socket"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/codec"
+	raw "github.com/go-iot-platform/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/util/addr"
+	"github.com/go-iot-platform/go-micro/util/backoff"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	"github.com/go-iot-platform/go-micro/util/socket"
 )
 
 type rpcServer struct {

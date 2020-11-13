@@ -9,8 +9,8 @@ import (
 
 	"github.com/imdario/mergo"
 	"github.com/micro/cli/v2"
-	"github.com/panovateam/go-micro/config/cmd"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/cmd"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type cliSource struct {

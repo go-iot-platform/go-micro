@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/store"
-	pb "github.com/panovateam/go-micro/store/service/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/store"
+	pb "github.com/go-iot-platform/go-micro/store/service/proto"
 )
 
 type serviceStore struct {

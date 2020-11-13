@@ -15,8 +15,8 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
 	hash "github.com/mitchellh/hashstructure"
 	"go.uber.org/zap"
 )

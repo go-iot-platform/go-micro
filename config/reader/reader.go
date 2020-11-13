@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 // Reader is an interface for merging changesets

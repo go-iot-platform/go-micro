@@ -4,7 +4,7 @@ package mdns
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 // NewRegistry returns a new mdns registry

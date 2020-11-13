@@ -2,8 +2,8 @@
 package proto
 
 import (
-	"github.com/panovateam/go-micro/router"
-	pbRtr "github.com/panovateam/go-micro/router/service/proto"
+	"github.com/go-iot-platform/go-micro/router"
+	pbRtr "github.com/go-iot-platform/go-micro/router/service/proto"
 )
 
 // RouteToProto encodes route into protobuf and returns it

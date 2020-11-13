@@ -5,7 +5,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/panovateam/go-micro/network/resolver"
+	"github.com/go-iot-platform/go-micro/network/resolver"
 	"github.com/miekg/dns"
 )
 

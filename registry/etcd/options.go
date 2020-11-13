@@ -3,7 +3,7 @@ package etcd
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/registry"
 	"go.uber.org/zap"
 )
 

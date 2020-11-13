@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client"
 )
 
 // Options contains configuration for the Store

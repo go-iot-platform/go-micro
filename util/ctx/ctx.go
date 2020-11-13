@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/panovateam/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/metadata"
 )
 
 func FromRequest(r *http.Request) context.Context {

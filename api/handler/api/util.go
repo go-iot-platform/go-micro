@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	api "github.com/panovateam/go-micro/api/proto"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/registry"
+	api "github.com/go-iot-platform/go-micro/api/proto"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/registry"
 	"github.com/oxtoacart/bpool"
 )
 

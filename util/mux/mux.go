@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/debug/service/handler"
-	"github.com/panovateam/go-micro/proxy"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/debug/service/handler"
+	"github.com/go-iot-platform/go-micro/proxy"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // Server is a proxy muxer that incudes the use of the DefaultHandler

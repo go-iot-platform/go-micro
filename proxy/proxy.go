@@ -4,7 +4,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // Proxy can be used as a proxy server for go-micro services

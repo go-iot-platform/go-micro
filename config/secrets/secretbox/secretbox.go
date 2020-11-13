@@ -3,7 +3,7 @@
 package secretbox
 
 import (
-	"github.com/panovateam/go-micro/config/secrets"
+	"github.com/go-iot-platform/go-micro/config/secrets"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/nacl/secretbox"
 

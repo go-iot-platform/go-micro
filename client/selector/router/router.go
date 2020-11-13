@@ -7,11 +7,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/router"
-	pb "github.com/panovateam/go-micro/router/service/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/router"
+	pb "github.com/go-iot-platform/go-micro/router/service/proto"
 )
 
 type routerSelector struct {

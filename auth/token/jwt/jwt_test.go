@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/auth/token"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth/token"
 )
 
 func TestGenerate(t *testing.T) {

@@ -2,7 +2,7 @@
 package http
 
 import (
-	"github.com/panovateam/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/broker"
 )
 
 // NewBroker returns a new http broker

@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/panovateam/go-micro/util/kubernetes/api"
+	"github.com/go-iot-platform/go-micro/util/kubernetes/api"
 )
 
 const (

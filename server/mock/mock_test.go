@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 func TestMockServer(t *testing.T) {

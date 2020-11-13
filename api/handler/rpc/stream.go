@@ -12,11 +12,11 @@ import (
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
-	"github.com/panovateam/go-micro/api"
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/selector"
-	raw "github.com/panovateam/go-micro/codec/bytes"
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/api"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	raw "github.com/go-iot-platform/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

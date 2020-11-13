@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/forestgiant/sliceutil"
-	"github.com/panovateam/go-micro/agent/input"
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/agent/input"
+	"github.com/go-iot-platform/go-micro/logger"
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
 )
 

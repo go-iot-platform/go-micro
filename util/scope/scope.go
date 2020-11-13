@@ -3,7 +3,7 @@ package scope
 import (
 	"fmt"
 
-	"github.com/panovateam/go-micro/store"
+	"github.com/go-iot-platform/go-micro/store"
 )
 
 // Scope extends the store, applying a prefix to each request

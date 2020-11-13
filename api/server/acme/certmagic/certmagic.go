@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/caddyserver/certmagic"
-	"github.com/panovateam/go-micro/api/server/acme"
-	"github.com/panovateam/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/api/server/acme"
+	"github.com/go-iot-platform/go-micro/logger"
 )
 
 type certmagicProvider struct {

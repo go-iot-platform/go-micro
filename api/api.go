@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 type Api interface {

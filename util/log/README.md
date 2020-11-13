@@ -1,6 +1,6 @@
 # Log
 
-DEPRECATED: use github.com/panovateam/go-micro/logger interface
+DEPRECATED: use github.com/go-iot-platform/go-micro/logger interface
 
 This is the global logger for all micro based libraries.
 

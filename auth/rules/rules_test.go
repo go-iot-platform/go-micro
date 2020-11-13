@@ -3,7 +3,7 @@ package rules
 import (
 	"testing"
 
-	"github.com/panovateam/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth"
 )
 
 func TestVerify(t *testing.T) {

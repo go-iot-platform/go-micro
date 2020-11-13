@@ -7,17 +7,17 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/broker"
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/codec"
-	raw "github.com/panovateam/go-micro/codec/bytes"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/metadata"
-	"github.com/panovateam/go-micro/registry"
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/util/buf"
-	"github.com/panovateam/go-micro/util/net"
-	"github.com/panovateam/go-micro/util/pool"
+	"github.com/go-iot-platform/go-micro/broker"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/codec"
+	raw "github.com/go-iot-platform/go-micro/codec/bytes"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/metadata"
+	"github.com/go-iot-platform/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/util/buf"
+	"github.com/go-iot-platform/go-micro/util/net"
+	"github.com/go-iot-platform/go-micro/util/pool"
 )
 
 type rpcClient struct {

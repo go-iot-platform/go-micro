@@ -2,8 +2,8 @@
 package service
 
 import (
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/server"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/server"
 )
 
 // Service is an interface for a micro service

@@ -6,8 +6,8 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/panovateam/go-micro/client/selector"
-	"github.com/panovateam/go-micro/registry"
+	"github.com/go-iot-platform/go-micro/client/selector"
+	"github.com/go-iot-platform/go-micro/registry"
 )
 
 type dnsSelector struct {

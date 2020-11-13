@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 func TestMemoryTransport(t *testing.T) {

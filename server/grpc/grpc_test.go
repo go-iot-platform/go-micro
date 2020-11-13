@@ -5,19 +5,19 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/panovateam/go-micro"
-	bmemory "github.com/panovateam/go-micro/broker/memory"
-	"github.com/panovateam/go-micro/client"
-	gcli "github.com/panovateam/go-micro/client/grpc"
-	"github.com/panovateam/go-micro/errors"
-	rmemory "github.com/panovateam/go-micro/registry/memory"
-	"github.com/panovateam/go-micro/server"
-	gsrv "github.com/panovateam/go-micro/server/grpc"
-	tgrpc "github.com/panovateam/go-micro/transport/grpc"
+	"github.com/go-iot-platform/go-micro"
+	bmemory "github.com/go-iot-platform/go-micro/broker/memory"
+	"github.com/go-iot-platform/go-micro/client"
+	gcli "github.com/go-iot-platform/go-micro/client/grpc"
+	"github.com/go-iot-platform/go-micro/errors"
+	rmemory "github.com/go-iot-platform/go-micro/registry/memory"
+	"github.com/go-iot-platform/go-micro/server"
+	gsrv "github.com/go-iot-platform/go-micro/server/grpc"
+	tgrpc "github.com/go-iot-platform/go-micro/transport/grpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/panovateam/go-micro/server/grpc/proto"
+	pb "github.com/go-iot-platform/go-micro/server/grpc/proto"
 )
 
 // server is used to implement helloworld.GreeterServer.

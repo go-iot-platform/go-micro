@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/panovateam/go-micro/runtime"
-	"github.com/panovateam/go-micro/util/kubernetes/client"
-	"github.com/panovateam/go-micro/util/log"
+	"github.com/go-iot-platform/go-micro/runtime"
+	"github.com/go-iot-platform/go-micro/util/kubernetes/client"
+	"github.com/go-iot-platform/go-micro/util/log"
 )
 
 type klog struct {

@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/panovateam/go-micro/auth"
-	"github.com/panovateam/go-micro/auth/rules"
-	pb "github.com/panovateam/go-micro/auth/service/proto"
-	"github.com/panovateam/go-micro/auth/token"
-	"github.com/panovateam/go-micro/auth/token/jwt"
-	"github.com/panovateam/go-micro/client"
+	"github.com/go-iot-platform/go-micro/auth"
+	"github.com/go-iot-platform/go-micro/auth/rules"
+	pb "github.com/go-iot-platform/go-micro/auth/service/proto"
+	"github.com/go-iot-platform/go-micro/auth/token"
+	"github.com/go-iot-platform/go-micro/auth/token/jwt"
+	"github.com/go-iot-platform/go-micro/client"
 )
 
 // svc is the service implementation of the Auth interface

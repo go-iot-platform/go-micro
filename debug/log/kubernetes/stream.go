@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/panovateam/go-micro/debug/log"
+	"github.com/go-iot-platform/go-micro/debug/log"
 )
 
 func write(l log.Record) error {

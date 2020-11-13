@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/panovateam/go-micro/config/loader"
-	"github.com/panovateam/go-micro/config/loader/memory"
-	"github.com/panovateam/go-micro/config/reader"
-	"github.com/panovateam/go-micro/config/reader/json"
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/loader"
+	"github.com/go-iot-platform/go-micro/config/loader/memory"
+	"github.com/go-iot-platform/go-micro/config/reader"
+	"github.com/go-iot-platform/go-micro/config/reader/json"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 type config struct {

@@ -5,11 +5,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/panovateam/go-micro/client"
-	"github.com/panovateam/go-micro/client/grpc"
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/registry"
-	pb "github.com/panovateam/go-micro/registry/service/proto"
+	"github.com/go-iot-platform/go-micro/client"
+	"github.com/go-iot-platform/go-micro/client/grpc"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/registry"
+	pb "github.com/go-iot-platform/go-micro/registry/service/proto"
 )
 
 var (

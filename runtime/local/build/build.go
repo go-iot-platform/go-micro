@@ -2,7 +2,7 @@
 package build
 
 import (
-	"github.com/panovateam/go-micro/runtime/local/source"
+	"github.com/go-iot-platform/go-micro/runtime/local/source"
 )
 
 // Builder builds binaries

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "github.com/panovateam/go-micro/debug/log"
+	dlog "github.com/go-iot-platform/go-micro/debug/log"
 )
 
 func init() {

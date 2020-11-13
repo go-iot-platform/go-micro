@@ -3,10 +3,10 @@ package grpc
 import (
 	"runtime/debug"
 
-	"github.com/panovateam/go-micro/errors"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/transport"
-	pb "github.com/panovateam/go-micro/transport/grpc/proto"
+	"github.com/go-iot-platform/go-micro/errors"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/transport"
+	pb "github.com/go-iot-platform/go-micro/transport/grpc/proto"
 	"google.golang.org/grpc/peer"
 )
 

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/panovateam/go-micro/runtime/local/process"
+	"github.com/go-iot-platform/go-micro/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Executable) error {

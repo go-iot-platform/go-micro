@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/panovateam/go-micro/config/source"
+	"github.com/go-iot-platform/go-micro/config/source"
 )
 
 func TestReader(t *testing.T) {

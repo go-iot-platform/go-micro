@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/panovateam/go-micro/codec"
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/codec"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 // testCodec is a dummy codec that only knows how to encode nil bodies

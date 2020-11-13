@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/panovateam/go-micro/config/reader"
+	"github.com/go-iot-platform/go-micro/config/reader"
 )
 
 type value struct{}

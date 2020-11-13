@@ -13,16 +13,16 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	"github.com/panovateam/go-micro"
-	"github.com/panovateam/go-micro/logger"
-	"github.com/panovateam/go-micro/registry"
-	maddr "github.com/panovateam/go-micro/util/addr"
-	authutil "github.com/panovateam/go-micro/util/auth"
-	"github.com/panovateam/go-micro/util/backoff"
-	mhttp "github.com/panovateam/go-micro/util/http"
-	mnet "github.com/panovateam/go-micro/util/net"
-	signalutil "github.com/panovateam/go-micro/util/signal"
-	mls "github.com/panovateam/go-micro/util/tls"
+	"github.com/go-iot-platform/go-micro"
+	"github.com/go-iot-platform/go-micro/logger"
+	"github.com/go-iot-platform/go-micro/registry"
+	maddr "github.com/go-iot-platform/go-micro/util/addr"
+	authutil "github.com/go-iot-platform/go-micro/util/auth"
+	"github.com/go-iot-platform/go-micro/util/backoff"
+	mhttp "github.com/go-iot-platform/go-micro/util/http"
+	mnet "github.com/go-iot-platform/go-micro/util/net"
+	signalutil "github.com/go-iot-platform/go-micro/util/signal"
+	mls "github.com/go-iot-platform/go-micro/util/tls"
 )
 
 type service struct {

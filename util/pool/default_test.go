@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/transport"
-	"github.com/panovateam/go-micro/transport/memory"
+	"github.com/go-iot-platform/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport/memory"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

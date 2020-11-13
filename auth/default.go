@@ -2,7 +2,7 @@ package auth
 
 import (
 	"github.com/google/uuid"
-	"github.com/panovateam/go-micro/auth/provider/basic"
+	"github.com/go-iot-platform/go-micro/auth/provider/basic"
 )
 
 var (

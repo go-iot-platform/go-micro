@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 func TestCallOptions(t *testing.T) {

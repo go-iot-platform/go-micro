@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/panovateam/go-micro/transport"
+	"github.com/go-iot-platform/go-micro/transport"
 )
 
 const (
