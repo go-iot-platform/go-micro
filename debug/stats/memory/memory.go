@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/debug/stats"
-	"github.com/asim/nitro/v3/util/ring"
+	"github.com/panovateam/go-micro/debug/stats"
+	"github.com/panovateam/go-micro/util/ring"
 )
 
 type memoryStats struct {

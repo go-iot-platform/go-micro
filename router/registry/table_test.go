@@ -3,7 +3,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/asim/nitro/v3/router"
+	"github.com/panovateam/go-micro/router"
 )
 
 func testSetup() (*table, router.Route) {

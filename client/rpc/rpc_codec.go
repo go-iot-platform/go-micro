@@ -4,16 +4,16 @@ import (
 	"bytes"
 	errs "errors"
 
-	"github.com/asim/nitro/v3/codec"
-	raw "github.com/asim/nitro/v3/codec/bytes"
-	"github.com/asim/nitro/v3/codec/grpc"
-	"github.com/asim/nitro/v3/codec/json"
-	"github.com/asim/nitro/v3/codec/jsonrpc"
-	"github.com/asim/nitro/v3/codec/proto"
-	"github.com/asim/nitro/v3/codec/protorpc"
-	"github.com/asim/nitro/v3/errors"
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/transport"
+	"github.com/panovateam/go-micro/codec"
+	raw "github.com/panovateam/go-micro/codec/bytes"
+	"github.com/panovateam/go-micro/codec/grpc"
+	"github.com/panovateam/go-micro/codec/json"
+	"github.com/panovateam/go-micro/codec/jsonrpc"
+	"github.com/panovateam/go-micro/codec/proto"
+	"github.com/panovateam/go-micro/codec/protorpc"
+	"github.com/panovateam/go-micro/errors"
+	"github.com/panovateam/go-micro/registry"
+	"github.com/panovateam/go-micro/transport"
 )
 
 const (

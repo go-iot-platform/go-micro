@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/asim/nitro/v3/client"
-	"github.com/asim/nitro/v3/errors"
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/registry/memory"
-	"github.com/asim/nitro/v3/router"
-	regRouter "github.com/asim/nitro/v3/router/registry"
+	"github.com/panovateam/go-micro/client"
+	"github.com/panovateam/go-micro/errors"
+	"github.com/panovateam/go-micro/registry"
+	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/panovateam/go-micro/router"
+	regRouter "github.com/panovateam/go-micro/router/registry"
 )
 
 func newTestRouter() router.Router {

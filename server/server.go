@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/registry"
+	"github.com/panovateam/go-micro/codec"
+	"github.com/panovateam/go-micro/registry"
 	"github.com/google/uuid"
 )
 

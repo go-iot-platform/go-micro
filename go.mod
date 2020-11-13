@@ -1,4 +1,4 @@
-module github.com/asim/nitro/v3
+module github.com/panovateam/go-micro
 
 go 1.15
 

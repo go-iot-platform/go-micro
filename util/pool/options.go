@@ -3,7 +3,7 @@ package pool
 import (
 	"time"
 
-	"github.com/asim/nitro/v3/transport"
+	"github.com/panovateam/go-micro/transport"
 )
 
 type Options struct {

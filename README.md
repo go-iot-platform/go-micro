@@ -61,7 +61,7 @@ package main
 import (
         "context"
 
-        "github.com/asim/nitro/v3/app/rpc"
+        "github.com/panovateam/go-micro/app/rpc"
 )
 
 // Define a request type

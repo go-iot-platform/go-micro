@@ -4,14 +4,14 @@ package rpc
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/app"
-	mbroker "github.com/asim/nitro/v3/broker/memory"
-	"github.com/asim/nitro/v3/client"
-	rpcClient "github.com/asim/nitro/v3/client/rpc"
-	"github.com/asim/nitro/v3/registry/memory"
-	"github.com/asim/nitro/v3/server"
-	rpcServer "github.com/asim/nitro/v3/server/rpc"
-	tmem "github.com/asim/nitro/v3/transport/memory"
+	"github.com/panovateam/go-micro/app"
+	mbroker "github.com/panovateam/go-micro/broker/memory"
+	"github.com/panovateam/go-micro/client"
+	rpcClient "github.com/panovateam/go-micro/client/rpc"
+	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/panovateam/go-micro/server"
+	rpcServer "github.com/panovateam/go-micro/server/rpc"
+	tmem "github.com/panovateam/go-micro/transport/memory"
 )
 
 type rpcApp struct {

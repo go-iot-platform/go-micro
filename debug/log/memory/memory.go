@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"github.com/asim/nitro/v3/debug/log"
-	"github.com/asim/nitro/v3/util/ring"
+	"github.com/panovateam/go-micro/debug/log"
+	"github.com/panovateam/go-micro/util/ring"
 )
 
 // memoryLog is default micro log

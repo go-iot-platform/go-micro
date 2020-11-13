@@ -3,8 +3,8 @@ package json
 import (
 	"testing"
 
-	"github.com/asim/nitro/v3/config/reader"
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/panovateam/go-micro/config/reader"
+	"github.com/panovateam/go-micro/config/source"
 )
 
 func TestReader(t *testing.T) {

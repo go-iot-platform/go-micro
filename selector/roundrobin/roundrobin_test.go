@@ -3,7 +3,7 @@ package roundrobin
 import (
 	"testing"
 
-	"github.com/asim/nitro/v3/selector"
+	"github.com/panovateam/go-micro/selector"
 	"github.com/stretchr/testify/assert"
 )
 

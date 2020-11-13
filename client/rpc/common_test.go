@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/asim/nitro/v3/registry"
+	"github.com/panovateam/go-micro/registry"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/asim/nitro/v3/codec"
+	"github.com/panovateam/go-micro/codec"
 )
 
 type serverCodec struct {

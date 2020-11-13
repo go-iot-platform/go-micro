@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/transport"
+	"github.com/panovateam/go-micro/codec"
+	"github.com/panovateam/go-micro/transport"
 )
 
 // testCodec is a dummy codec that only knows how to encode nil bodies

@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/nitro/v3/metadata"
+	"github.com/panovateam/go-micro/metadata"
 )
 
 // Trace is an interface for distributed tracing

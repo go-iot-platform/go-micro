@@ -7,7 +7,7 @@ import (
 	"net/http/pprof"
 	"sync"
 
-	"github.com/asim/nitro/v3/debug/profile"
+	"github.com/panovateam/go-micro/debug/profile"
 )
 
 type httpProfile struct {

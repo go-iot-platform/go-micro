@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/store"
+	"github.com/panovateam/go-micro/store"
 	"github.com/patrickmn/go-cache"
 )
 

@@ -4,7 +4,7 @@ package pool
 import (
 	"time"
 
-	"github.com/asim/nitro/v3/transport"
+	"github.com/panovateam/go-micro/transport"
 )
 
 // Pool is an interface for connection pooling

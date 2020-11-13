@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asim/nitro/v3/config"
-	"github.com/asim/nitro/v3/config/memory"
-	"github.com/asim/nitro/v3/config/source/file"
+	"github.com/panovateam/go-micro/config"
+	"github.com/panovateam/go-micro/config/memory"
+	"github.com/panovateam/go-micro/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

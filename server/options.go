@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/auth"
-	"github.com/asim/nitro/v3/broker"
-	mbroker "github.com/asim/nitro/v3/broker/memory"
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/debug/trace"
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/registry/memory"
-	"github.com/asim/nitro/v3/transport"
-	tmem "github.com/asim/nitro/v3/transport/memory"
+	"github.com/panovateam/go-micro/auth"
+	"github.com/panovateam/go-micro/broker"
+	mbroker "github.com/panovateam/go-micro/broker/memory"
+	"github.com/panovateam/go-micro/codec"
+	"github.com/panovateam/go-micro/debug/trace"
+	"github.com/panovateam/go-micro/registry"
+	"github.com/panovateam/go-micro/registry/memory"
+	"github.com/panovateam/go-micro/transport"
+	tmem "github.com/panovateam/go-micro/transport/memory"
 )
 
 type Options struct {

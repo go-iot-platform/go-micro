@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/nitro/v3/logger"
-	"github.com/asim/nitro/v3/router"
+	"github.com/panovateam/go-micro/logger"
+	"github.com/panovateam/go-micro/router"
 	"github.com/google/uuid"
 )
 

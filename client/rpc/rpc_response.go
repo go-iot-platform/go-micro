@@ -1,8 +1,8 @@
 package rpc
 
 import (
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/transport"
+	"github.com/panovateam/go-micro/codec"
+	"github.com/panovateam/go-micro/transport"
 )
 
 type rpcResponse struct {

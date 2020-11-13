@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/asim/nitro/v3/config/source"
+	"github.com/panovateam/go-micro/config/source"
 )
 
 type file struct {

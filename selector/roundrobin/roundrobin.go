@@ -1,7 +1,7 @@
 package roundrobin
 
 import (
-	"github.com/asim/nitro/v3/selector"
+	"github.com/panovateam/go-micro/selector"
 )
 
 // NewSelector returns an initalised round robin selector

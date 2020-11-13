@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/nitro/v3/store"
+	"github.com/panovateam/go-micro/store"
 )
 
 func NewOptions(opts ...Option) Options {

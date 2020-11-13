@@ -3,7 +3,7 @@ package rpc
 import (
 	"testing"
 
-	"github.com/asim/nitro/v3/client"
+	"github.com/panovateam/go-micro/client"
 )
 
 func TestRequestOptions(t *testing.T) {

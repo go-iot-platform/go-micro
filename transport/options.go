@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/asim/nitro/v3/codec"
+	"github.com/panovateam/go-micro/codec"
 )
 
 type Options struct {

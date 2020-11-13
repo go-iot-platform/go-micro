@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/asim/nitro/v3/broker"
+	"github.com/panovateam/go-micro/broker"
 )
 
 func TestMemoryBroker(t *testing.T) {

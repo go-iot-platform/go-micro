@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asim/nitro/v3/codec"
+	"github.com/panovateam/go-micro/codec"
 )
 
 func TestBackoff(t *testing.T) {

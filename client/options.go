@@ -4,16 +4,16 @@ import (
 	"context"
 	"time"
 
-	"github.com/asim/nitro/v3/broker"
-	mbroker "github.com/asim/nitro/v3/broker/memory"
-	"github.com/asim/nitro/v3/codec"
-	"github.com/asim/nitro/v3/registry"
-	"github.com/asim/nitro/v3/router"
-	regRouter "github.com/asim/nitro/v3/router/registry"
-	"github.com/asim/nitro/v3/selector"
-	"github.com/asim/nitro/v3/selector/roundrobin"
-	"github.com/asim/nitro/v3/transport"
-	tmem "github.com/asim/nitro/v3/transport/memory"
+	"github.com/panovateam/go-micro/broker"
+	mbroker "github.com/panovateam/go-micro/broker/memory"
+	"github.com/panovateam/go-micro/codec"
+	"github.com/panovateam/go-micro/registry"
+	"github.com/panovateam/go-micro/router"
+	regRouter "github.com/panovateam/go-micro/router/registry"
+	"github.com/panovateam/go-micro/selector"
+	"github.com/panovateam/go-micro/selector/roundrobin"
+	"github.com/panovateam/go-micro/transport"
+	tmem "github.com/panovateam/go-micro/transport/memory"
 )
 
 type Options struct {

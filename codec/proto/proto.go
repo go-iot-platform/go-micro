@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/asim/nitro/v3/codec"
+	"github.com/panovateam/go-micro/codec"
 	"github.com/golang/protobuf/proto"
 )
 

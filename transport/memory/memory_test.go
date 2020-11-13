@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/asim/nitro/v3/transport"
+	"github.com/panovateam/go-micro/transport"
 )
 
 func TestMemoryTransport(t *testing.T) {

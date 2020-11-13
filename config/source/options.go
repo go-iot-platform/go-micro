@@ -3,9 +3,9 @@ package source
 import (
 	"context"
 
-	"github.com/asim/nitro/v3/client"
-	"github.com/asim/nitro/v3/config/encoder"
-	"github.com/asim/nitro/v3/config/encoder/json"
+	"github.com/panovateam/go-micro/client"
+	"github.com/panovateam/go-micro/config/encoder"
+	"github.com/panovateam/go-micro/config/encoder/json"
 )
 
 type Options struct {
