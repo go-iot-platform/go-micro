@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/panovateam/go-micro"
+	"github.com/panovateam/go-micro/registry"
 )
 
 //Options for web

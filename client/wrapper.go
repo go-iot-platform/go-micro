@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/panovateam/go-micro/registry"
 )
 
 // CallFunc represents the individual call func

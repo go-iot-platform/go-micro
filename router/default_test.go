@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/registry/memory"
+	"github.com/panovateam/go-micro/registry/memory"
 )
 
 func routerTestSetup() Router {

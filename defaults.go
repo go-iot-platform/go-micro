@@ -1,16 +1,16 @@
 package micro
 
 import (
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/panovateam/go-micro/client"
+	"github.com/panovateam/go-micro/debug/trace"
+	"github.com/panovateam/go-micro/server"
+	"github.com/panovateam/go-micro/store"
 
 	// set defaults
-	gcli "github.com/micro/go-micro/v2/client/grpc"
-	memTrace "github.com/micro/go-micro/v2/debug/trace/memory"
-	gsrv "github.com/micro/go-micro/v2/server/grpc"
-	memoryStore "github.com/micro/go-micro/v2/store/memory"
+	gcli "github.com/panovateam/go-micro/client/grpc"
+	memTrace "github.com/panovateam/go-micro/debug/trace/memory"
+	gsrv "github.com/panovateam/go-micro/server/grpc"
+	memoryStore "github.com/panovateam/go-micro/store/memory"
 )
 
 func init() {

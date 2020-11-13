@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/auth/rules"
-	"github.com/micro/go-micro/v2/auth/token"
-	jwtToken "github.com/micro/go-micro/v2/auth/token/jwt"
+	"github.com/panovateam/go-micro/auth"
+	"github.com/panovateam/go-micro/auth/rules"
+	"github.com/panovateam/go-micro/auth/token"
+	jwtToken "github.com/panovateam/go-micro/auth/token/jwt"
 )
 
 // NewAuth returns a new instance of the Auth service

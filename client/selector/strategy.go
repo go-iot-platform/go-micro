@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/panovateam/go-micro/registry"
 )
 
 func init() {

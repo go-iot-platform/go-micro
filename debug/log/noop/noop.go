@@ -1,7 +1,7 @@
 package noop
 
 import (
-	"github.com/micro/go-micro/v2/debug/log"
+	"github.com/panovateam/go-micro/debug/log"
 )
 
 type noop struct{}

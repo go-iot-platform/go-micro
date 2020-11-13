@@ -5,12 +5,12 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/panovateam/go-micro/auth"
+	"github.com/panovateam/go-micro/broker"
+	"github.com/panovateam/go-micro/codec"
+	"github.com/panovateam/go-micro/registry"
+	"github.com/panovateam/go-micro/server"
+	"github.com/panovateam/go-micro/transport"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/go-micro/v2/api/resolver"
+	"github.com/panovateam/go-micro/api/resolver"
 )
 
 type Resolver struct{}

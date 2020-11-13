@@ -2,11 +2,11 @@
 package mucp
 
 import (
-	"github.com/micro/go-micro/v2/client"
-	cmucp "github.com/micro/go-micro/v2/client/mucp"
-	"github.com/micro/go-micro/v2/server"
-	smucp "github.com/micro/go-micro/v2/server/mucp"
-	"github.com/micro/go-micro/v2/service"
+	"github.com/panovateam/go-micro/client"
+	cmucp "github.com/panovateam/go-micro/client/mucp"
+	"github.com/panovateam/go-micro/server"
+	smucp "github.com/panovateam/go-micro/server/mucp"
+	"github.com/panovateam/go-micro/service"
 )
 
 type mucpService struct {
